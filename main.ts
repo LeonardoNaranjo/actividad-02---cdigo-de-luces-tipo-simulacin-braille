@@ -8,6 +8,14 @@ basic.forever(function () {
         `)
     basic.pause(1000)
     basic.showLeds(`
+        . . . . .
+        # . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.pause(100)
+    basic.showLeds(`
         # # . . .
         # # . . .
         . . . . .
@@ -87,6 +95,46 @@ basic.forever(function () {
         . . . . .
         `)
     basic.pause(1000)
+    basic.showLeds(`
+        . . . . .
+        # . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.pause(100)
+    basic.showLeds(`
+        # . . . .
+        # . . . .
+        # . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.pause(3000)
+    basic.showLeds(`
+        # . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.pause(1000)
+    basic.showLeds(`
+        # # . . .
+        . # . . .
+        # . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.pause(3000)
+    basic.showLeds(`
+        # . . . .
+        # # . . .
+        # . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.pause(3000)
     basic.showLeds(`
         . # . . .
         . # . . .
